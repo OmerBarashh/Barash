@@ -2,16 +2,36 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Keep trying</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
+    <div id="container">
+        <form id="form">
+            <div id = "first">
+                Name
+                <br></br>
+                <input type="text" id="name" placeholder="Name">
+                <br></br>
+            </div>
+            <div id = "second">
+                Desired salary &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Birthday
+                <br></br>
+                <input type="number" id="salary" placeholder="Write Desired Salary">
+                <input type="date" id="bd" placeholder="BirthDay">
+                <br></br>
+            </div>
+            <div id = "third">
+                Phone number
+                <br></br>
+                <input type="number" id="num" placeholder="Phone number">
+                <br></br>
+                <button type="button" id="button" onclick = check() value="Submit">Submit</button>            
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
